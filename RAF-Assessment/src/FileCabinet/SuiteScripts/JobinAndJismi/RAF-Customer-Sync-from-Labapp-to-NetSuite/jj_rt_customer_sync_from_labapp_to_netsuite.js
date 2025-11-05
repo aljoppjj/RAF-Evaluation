@@ -39,14 +39,14 @@ define(['N/record', 'N/search'],
                         isDynamic: true
                     });
 
-                    if (requestBody.companyname !== undefined) {
+                    if (requestBody.companyname) {
                         custRecord.setValue({
                             fieldId: 'companyname',
                             value: requestBody.companyname
                         });
                     }
 
-                    if (requestBody.subsidiary !== undefined) {
+                    if (requestBody.subsidiary) {
                         custRecord.setValue({
                             fieldId: 'subsidiary',
                             value: requestBody.subsidiary
@@ -77,14 +77,14 @@ define(['N/record', 'N/search'],
                         isDynamic: true
                     });
 
-                    if (requestBody.companyname !== undefined) {
+                    if (requestBody.companyname) {
                         custRecord.setValue({
                             fieldId: 'companyname',
                             value: requestBody.companyname
                         });
                     }
 
-                    if (requestBody.subsidiary !== undefined) {
+                    if (requestBody.subsidiary) {
                         custRecord.setValue({
                             fieldId: 'subsidiary',
                             value: requestBody.subsidiary
